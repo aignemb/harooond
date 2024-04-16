@@ -1,0 +1,12 @@
+#!/bin/zsh
+# needs to be run as source
+
+source $HPD_PATH/hpd_data
+
+echo "harpoond initialized"
+export PATH="$HPD_PATH:$PATH"
+
+alias $ALIAS_HPD="source harpoond"
+alias $HPD_HK1="source hpd_1"
+alias $HPD_HK2="source hpd_2"
+alias $HPD_HK3="source hpd_3"

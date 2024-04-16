@@ -1,0 +1,16 @@
+#!/bin/zsh
+
+
+if [ "$1" = "--help" ]; then
+    echo ""
+    echo "Harpoon for Directories"
+    echo "--> To add current directory type \"<HK> -a\" \n    where <HK> is one of the available hotkeys"
+    echo "--> To view currently assigned hotkeys type hpd"
+    echo ""
+elif [ "$1" = "" ]; then 
+    echo ""
+    echo " "$HPD_HK1: $HPD_PATH1
+    echo " "$HPD_HK2: $HPD_PATH2
+    echo " "$HPD_HK3: $HPD_PATH3
+    echo ""
+fi
