@@ -25,11 +25,12 @@ Use:
 * To add an alias to the current working directory, type
     <alias> -a 
     - Note that the alias must already be configured in hpd_data
+    - As noted above, pre-configured aliases are a, s, and f
 
 * To navigate back to that directory from anywhere, type
-    <alias> 
+    <alias><enter>
 
-* To display currently harpooned directories, type on of the following
+* To display currently harpooned directories, type one of the following
     harpoond
     hpd # default alias
     <custom alias> # can be configured in hpd_data file
